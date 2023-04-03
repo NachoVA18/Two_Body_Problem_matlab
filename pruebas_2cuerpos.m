@@ -8,7 +8,7 @@ t = 1000;%(s)
 %Fijamos la masa del 1º
 m1 = 6*10^23; %(kg)
 %Fijamos la masa del 2º
-%m2 = 6*10^23; %(kg)
+m2 = 6*10^23; %(kg)
 
 %fijamos la función
 f = @(t,x) dos_cuerpos(t, x, m1, m2); % función anónima con los valores de m1 y m1 predefinidos
@@ -64,7 +64,6 @@ datos_cuerpos = struct('x1', a(1,:), 'y1', a(2,:), 'z1', a(3,:), 'x2', a(7,:), '
     
     % Animación de la órbita
     for i=1:length(a)
-    set(gcf, 'Color', [0 0 0])
     datos_cuerpos = struct('x1', a(1,i), 'y1', a(2,i), 'z1', a(3,i), 'x2', a(7,i), 'y2', a(8,i), 'z2', a(9,i));
     actualiza_datos(datos_cuerpos, h1, h2);
     pause(0.001);

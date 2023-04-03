@@ -17,7 +17,7 @@ To run the solver, you can modify the initial conditions in the animate.m file a
 The animation will be generated using MATLAB's built-in 3D visualization tools and may take some time to complete, depending on the duration of the simulation and the speed of your computer.
 
 ## License
-You are free to use, modify, and distribute the code as you see fit. 
+You are free to use, modify, and distribute the code. 
 
 ## Contributing
 If you find a bug or would like to contribute to this project, please feel free to submit a pull request. We welcome contributions from the community and are happy to work with you to make this project even better.

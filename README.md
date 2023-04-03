@@ -12,7 +12,7 @@ This is a repository containing a numerical solver for the two-body problem usin
 ## Usage
 To use this repository, you should first clone it to your local machine. You will need to have MATLAB installed.
 
-To run the solver, you can modify the initial conditions in the animate.m file and then run it using the MATLAB command window or by clicking on the "Run" button in the MATLAB editor.
+To run the solver, you can modify the initial conditions in the *2body_animation_3D.m* file and then run it using the MATLAB command window or by clicking on the "Run" button in the MATLAB editor.
 
 The animation will be generated using MATLAB's built-in 3D visualization tools and may take some time to complete, depending on the duration of the simulation and the speed of your computer.
 

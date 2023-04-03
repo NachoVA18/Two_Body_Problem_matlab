@@ -3,11 +3,11 @@ Two body problem in 3D numeric resolution with Runge-Kutta in Matlab
 
 This is a repository containing a numerical solver for the two-body problem using the Runge-Kutta method. The solver is implemented in MATLAB and includes three files:
 
-dos_cuerpos.m: this file contains the physical functions that describe the motion of the bodies. These functions are used by the numerical solver to compute the trajectory of the bodies over time.
+*dos_cuerpos.m*: this file contains the physical functions that describe the motion of the bodies. These functions are used by the numerical solver to compute the trajectory of the bodies over time.
 
-runge_kutta.m: this file contains the implementation of the Runge-Kutta method. The implementation is generic and can be used for any set of differential equations.
+*runge_kutta.m*: this file contains the implementation of the Runge-Kutta method. The implementation is generic and can be used for any set of differential equations.
 
-2body_animation3D.m: this file allows the user to specify the initial conditions of the two bodies and then generates a 3D animation of the motion of the bodies over time.
+*2body_animation_3D.m*: this file allows the user to specify the initial conditions of the two bodies and then generates a 3D animation of the motion of the bodies over time.
 
 ## Usage
 To use this repository, you should first clone it to your local machine. You will need to have MATLAB installed.
